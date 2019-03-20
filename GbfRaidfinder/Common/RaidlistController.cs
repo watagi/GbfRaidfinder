@@ -22,7 +22,7 @@ namespace GbfRaidfinder.Common {
                     Encoding = Encoding.UTF8
                 };
                 var js = web.DownloadString(
-                    "https://raw.githubusercontent.com/tensei/GbfRaidfinder/master/List/Raidlist.json");
+                    "https://raw.githubusercontent.com/watagi/GbfRaidfinder/master/List/Raidlist.json");
 
                 remote = JsonConvert.DeserializeObject<ObservableCollection<RaidListItem>>(js);
             }
