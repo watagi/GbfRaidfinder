@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GbfRaidfinder.Common {
     public static class UpdateController {
-        public const float Localver = 0.80f;
+        public const float Localver = 0.85f;
         private const string Url = "http://tensei.moe/api/v1/gbfraidfinder/version";
 
         public static async Task<bool> Check() {
